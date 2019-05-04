@@ -52,6 +52,9 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 # golang
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
+# Goenv
+#export PATH="$HOME/.goenv/bin:$PATH"
+#eval "$(goenv init -)"
 
 # GCP
 export PATH=$PATH:$HOME/google-cloud-sdk/platform/google_appengine
